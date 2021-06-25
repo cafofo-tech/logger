@@ -1,5 +1,5 @@
 {
-  "name": "@uchoaaa/logger",
+  "name": "@cafofo-tech/logger",
   "version": "0.1.0",
   "type": "module",
   "description": "Logger with levels, context and using default console object",
