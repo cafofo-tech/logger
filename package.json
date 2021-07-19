@@ -1,7 +1,6 @@
 {
-  "name": "@cafofo-tech/logger",
-  "version": "0.1.0",
-  "type": "module",
+  "name": "@uchoaaa/logger",
+  "version": "0.1.2",
   "description": "Logger with levels, context and using default console object",
   "main": "index.js",
   "scripts": {

@@ -24,7 +24,7 @@ const COLORS = {
   BgWhite: "\x1b[47m"
 }
 
-export default class Logger {
+class Logger {
   static _instance = null
 
   static DEBUG = 0
@@ -79,3 +79,5 @@ export default class Logger {
     console[level](`${color}[${level.toUpperCase()}] ${new Date().toISOString()} - (${this.contextName}):`, ...args)
   }
 }
+
+module.exports = Logger
